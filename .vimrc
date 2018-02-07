@@ -1,13 +1,15 @@
 set nu
 set ai
-set ts=4
+set ts=2
 syntax on
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
 set nocompatible              " be iMproved, required
 set showtabline=0
 set hidden
 filetype off                  " required
+" Disable bold fonts
+set t_md=
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -22,13 +24,26 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'powerline/powerline-fonts'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/syntastic'
-
+Plugin 'tpope/vim-surround'
 
 " Showing files on sidebar
 Plugin 'scrooloose/nerdtree'
+" Git support
 Plugin 'tpope/vim-fugitive'
+" An awesome status bar
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+" Ruby on Rails support
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'ngmy/vim-rubocop'
+Plugin 'tpope/vim-endwise'
+" Fuzzy Find
+Plugin 'ctrlpvim/ctrlp.vim'
+" Emmet
+Plugin 'mattn/emmet-vim'
+" Draw spaces
+Plugin 'Yggdroot/indentLine'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -45,8 +60,17 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" Drawing spaces and tabs
+set list lcs=tab:\.\|
+"let g:indentLine_color_term = 239 
+
 let g:airline_theme='hybridline'
 let g:airline_right_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_left_alt_sep= ''
 let g:airline_left_sep = ''
+"let g:airline_theme='hybridline'
+"let g:airline_right_alt_sep = '<'
+"let g:airline_right_sep = '<'
+"let g:airline_left_alt_sep= '>'
+"let g:airline_left_sep = '>'
