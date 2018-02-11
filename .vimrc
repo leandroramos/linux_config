@@ -1,8 +1,9 @@
 set nu
 set ai
-set ts=2
-syntax on
-set shiftwidth=2
+syntax enable
+set smartindent
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set nocompatible              " be iMproved, required
 set showtabline=0
