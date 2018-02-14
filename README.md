@@ -29,4 +29,4 @@ The other configs are Fedora LXDE default
 ### Usage
 - Link or copy lxde-rc.xml to .config/openbox/lxde-rc.xml
   - or .config/openbox/lubuntu-rc.xml
-  - or whatever, depending on your distro
+  - or wherever, depending on your distro
