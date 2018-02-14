@@ -2,9 +2,17 @@
 Some configs shared here to make my life easier.
 
 ## Vimrc
+### Usage
   - Link or copy .vim/ and .vimrc to home directory
 ## Zshrc
+### Usage
   - Link .zshrc to home directory
+## Numix-Blue theme
+It's just a hack to replace the color of original Numix Theme, switching window buttons and window menus (highlight text) from orange to blue to fit my LXDE customization. It works only on LXDE/Openbox window borders.
+### Usage
+- Place Numix-Blue folder in ~/.config/themes or /usr/share/themes
+- Open settings > Customize Look and Feel (lxappearance) and choose Numix-Blue for your window borders
+
 ## LXDE Configs
 This config also works with Openbox.
 - Some keyboard shortcuts are:
@@ -18,7 +26,6 @@ This config also works with Openbox.
     - Or maximize window and undecorate it
     
 The other configs are Fedora LXDE default 
-  
 ### Usage
 - Link or copy lxde-rc.xml to .config/openbox/lxde-rc.xml
   - or .config/openbox/lubuntu-rc.xml
