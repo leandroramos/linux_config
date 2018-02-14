@@ -1,10 +1,17 @@
 set nu
 set ai
 syntax enable
+filetype plugin indent on
 set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+:autocmd Filetype ruby set softtabstop=2
+:autocmd Filetype ruby set sw=2
+:autocmd Filetype ruby set ts=2
+:autocmd Filetype eruby set softtabstop=2
+:autocmd Filetype eruby set sw=2
+:autocmd Filetype eruby set ts=2
 set nocompatible              " be iMproved, required
 set showtabline=0
 set hidden
@@ -44,7 +51,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 " Emmet
 Plugin 'mattn/emmet-vim'
 " Draw spaces
-Plugin 'Yggdroot/indentLine'
+"Plugin 'Yggdroot/indentLine'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -62,7 +69,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " Drawing spaces and tabs
-set list lcs=tab:\.\|
+"set list lcs=tab:\.\|
 "let g:indentLine_color_term = 239 
 
 let g:airline_theme='hybridline'
