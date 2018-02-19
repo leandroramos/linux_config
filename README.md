@@ -7,6 +7,9 @@ Some configs shared here to make my life easier.
 ## Zshrc
 ### Usage
   - Link .zshrc to home directory
+## Tilix configs
+### Usage
+  - Link or copy tilix folder to ~/.config/
 ## Numix-Blue theme
 It's just a hack to replace the color of original Numix Theme, switching window buttons and window menus (highlight text) from orange to blue to fit my LXDE customization. It works only on LXDE/Openbox window borders.
 ### Usage

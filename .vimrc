@@ -50,6 +50,8 @@ Plugin 'tpope/vim-endwise'
 Plugin 'ctrlpvim/ctrlp.vim'
 " Emmet
 Plugin 'mattn/emmet-vim'
+" Polyglot
+Plugin 'sheerun/vim-polyglot'
 " Draw spaces
 "Plugin 'Yggdroot/indentLine'
 
