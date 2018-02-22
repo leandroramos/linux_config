@@ -1,8 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/le/projetos/php/universidade-terceira-idade/app/Http/Controllers'
-let g:netrw_dirhist_2='/home/le/repositórios/linux_config'
-let g:netrw_dirhist_3='/home/le/repositórios/uspdev/copaco_laravel'
-let g:netrw_dirhist_4='/home/le/repositórios/uspdev/copaco_laravel/app'
-let g:netrw_dirhist_5='/home/le/repositórios/uspdev/copaco_laravel/app/Http'
-let g:netrw_dirhist_6='/home/le/repositórios/uspdev/copaco_laravel/app/Http/Controllers'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/le/repositórios/leandro/dockerPHP'
