@@ -358,7 +358,7 @@
       <action name="MoveResizeTo"><x>center</x><y>center</y><width>50%</width><height>100%</height></action>
     </keybind>
     <keybind key="W-w">        # Center on screen
-        <action name="MoveResizeTo"><x>center</x><y>center</y><height>50%</height><width>50%</width></action>
+        <action name="MoveResizeTo"><x>center</x><y>center</y><height>70%</height><width>50%</width></action>
     </keybind>
     <keybind key="W-7">        # Top left corner
       <action name="UnmaximizeFull"/>
