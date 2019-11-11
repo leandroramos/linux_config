@@ -1,0 +1,47 @@
+# Decorator
+window.active.title.bg.color: #e7e8eb
+window.inactive.title.bg.color: #e7e8eb
+window.*.label.text.color: #5c616c
+window.*.button.*.image.color: #5c616c
+
+# Borders
+window.handle.width: 0
+window.client.padding.width: 0
+border.width: 0
+
+# Title
+padding.width: 10
+padding.height: 4
+window.*.title.bg: Solid Flat
+window.*.*.bg: Parentrelative
+window.label.text.justify: center
+
+# Menu
+menu.border.width: 6
+menu.separator.width: 2
+menu.separator.padding.width: 10
+menu.separator.padding.height: 2
+menu.overlap.x: -8
+menu.*.bg: flat solid
+menu.*.bg.color: #e7e8eb
+menu.*.color: #e7e8eb
+menu.title.text.color: #2f343f
+menu.items.text.color: #2f343f
+menu.items.active.disabled.text.color: #5c616c
+menu.items.active.text.color: #2f343f
+menu.title.text.justify: center
+menu.items.active.bg.color: #5294e2
+
+# OSD
+osd.border.width: 1
+osd.border.color: #e7e8eb
+osd.bg: flat solid
+osd.bg.color: #e7e8eb
+osd.label.bg: flat solid
+osd.label.bg.color: #e7e8eb
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #ef6b7b
+
+# Colour Trick
+window.active.button.close.unpressed.image.color: #ef6b7b
+window.inactive.button.close.unpressed.image.color: #bf616a
